@@ -27,11 +27,6 @@ beta=1;
 coles=carga_paradas();
 [paradaSubida,paradaBajada,idLinea,M2]=check_paradas(parsed_osm,M2,coles,inicio,destino);
 
-%% GENERAR DATOS COMPARATIVOS PARA EL ANALISIS ESTADISTICO
-% generar_datos(10,M,M2,paradaSubida,paradaBajada,inicio,destino);
-% generar_datos2(10,M,M2,paradaSubida,paradaBajada,inicio,destino);
-% generar_datos3(10,M,M2,paradaSubida,paradaBajada,inicio,destino);
-
 %% RUTA MINIMA CON ALGORITMOS DE HORMIGAS
 % [r0, dist0,t0,epo0]=ACH(M,inicio,destino,cantidad_hormigas,p,f_ini,alfa,beta);
 % 
@@ -47,8 +42,6 @@ coles=carga_paradas();
 % target = destino;
 % [r3, dist3,t3,epo3]=ACH(M,start,target,cantidad_hormigas,p,f_ini,alfa,beta);
 
-% fileID=fopen('ACH.txt','At');
-
 
 %% RUTA MINIMA CON SISTEMA DE COLONIA DE HORMIGAS
 
@@ -63,8 +56,7 @@ coles=carga_paradas();
 % start = paradaBajada;
 % target = destino;
 % [r3, dist3,t3,epo3]=ACS(M,start,target,cantidad_hormigas,p,rho,q0,epomax,f_ini,alfa,beta);
-% 
-% fileID=fopen('ASC.txt','At');
+
 
 %% RUTA MINIMA CON HORMIGAS MAX MIN
 % start = inicio;
@@ -78,8 +70,7 @@ coles=carga_paradas();
 % start = paradaBajada;
 % target = destino;
 % [r3, dist3,t3,epo3]=ACS_MAXMIN(M,start,target,cantidad_hormigas,p,q0,epomax,f_ini,f_max,alfa,beta); 
-% 
-% fileID=fopen('MMAS.txt','At');
+
 
 %% RUTA MINIMA CON MEJOR-PEOR HORMIGA
 [r0, dist0,t0,epo0]=ACH_mejorpeor(M,inicio,destino,cantidad_hormigas,p,epomax,f_ini,alfa,beta);
@@ -96,10 +87,9 @@ start = paradaBajada;
 target = destino;
 [r3, dist3,t3,epo3]=ACH_mejorpeor(M,start,target,cantidad_hormigas,p,epomax,f_ini,alfa,beta);
 
-% fileID=fopen('MEJOR-PEOR hormiga.txt','At');
 
 
-%% INFORME .TXT
+%% INFORME
 fprintf('\ncaminando cuesta %f',dist0)
 fprintf('\ncon un tiempo de resolucion del algoritmo: %f',t0);
 fprintf('\n\nte tomaste el colectivo linea %i',coles(idLinea).NumeroLinea) 
@@ -107,13 +97,6 @@ fprintf('\ntiempo de resolucion del algoritmo: %f',t1+t2+t3)
 fprintf('\ncosto total incurrido: %f ',dist1+dist2+dist3);
 fprintf('\ntotal de iteraciones para llegar a la solucion %i', epo1+epo2+epo3);
 fprintf('\n');
-
-% fprintf(fileID,strcat('\nDESCRIPCION: algoritmo colonia de hormigas simple'));
-% fprintf(fileID,strcat('\ntiempo de resolucion del algoritmo: ',num2str(t1+t2+t3)));
-% fprintf(fileID,strcat('\ncosto total incurrido: ', num2str(dist1+dist2+dist3)));
-% fprintf(fileID,strcat('\n total de iteraciones para llegar a la solucion: ',num2str(epo1+epo2+epo3),'\n'));
-% fclose(fileID);
-
 
 %% GRAFICA
 fig = figure;
