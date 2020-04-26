@@ -23,12 +23,13 @@ Además, nos hemos propuesto el objetivo de comparar las distintas variaciones d
       
 ## Implementación del algoritmo y resultados técnicos
 Los detalles técnicos acerca de la implementación y los resultados obtenidos quedan expresados en el siguiente informe en la carpeta de proyecto arriba:
+
 https://github.com/guobiloo/hormigas-urbanas/blob/master/hormigas%20urbanas%20-%202018.pdf
 
 ## lenguajes y librerías consideradas
-python 2.7 (privado)
-matlab / octave 
-OpenStreetMaps (uso de mapas)
+* python 2.7 (privado)
+* matlab / octave 
+* OpenStreetMaps (uso de mapas)
 
 ## Dependencias
 El proyecto pudo realizarse gracias a la librería openstreetmap que permitió rápidamente copiar un mapa de la página web de OpenStreetMap y plotearlo en matlab, considerando las conectividades entre nodos (como las esquinas).
