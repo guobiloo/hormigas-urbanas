@@ -27,7 +27,7 @@ Los detalles técnicos acerca de la implementación y los resultados obtenidos q
 https://github.com/guobiloo/hormigas-urbanas/blob/master/hormigas%20urbanas%20-%202018.pdf
 
 ## lenguajes y librerías consideradas
-* python 2.7 (privado)
+* python 2.7 (repositorio privado)
 * matlab / octave 
 * OpenStreetMaps (uso de mapas)
 
