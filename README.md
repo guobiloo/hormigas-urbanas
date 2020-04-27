@@ -1,4 +1,5 @@
 # Hormigas-urbanas
+### Problema y contexto
 Es de costumbre en medianas y grandes ciudades que la gente utilice medios de transporte públicos o personales (autos, motocicletas, bicicletas) para desplazarse y poder llegar a cualquier punto.
 
 Dependiendo del tipo de actividad que se trate, algunos puntos de la ciudad donde se concurre lleva consigo un horario establecido que se ha de respetar, como por ejemplo a la hora de trabajar. A veces, también se le suma el hecho de que no se conoce la ciudad.
@@ -7,10 +8,13 @@ Ante estos casos, la gente elige planificar los medios de transporte que debe us
 
 La desventaja surge cuando se trata con ciudades muy extensas, puesto que se requiere una buena gestión del flujo y estructura de datos tales como nombre de calles, números, esquinas, el tipo de camino, etc. El procesamiento de esta información requiere en un buen respaldo de hardware para soportar costos en tiempo y memoria mayores. Esto es, esencialmente la desventaja de utilizar el método de costo uniforme anteriormente mencionado.
 
+### objetivo
 El objetivo de este trabajo fué la búsqueda de estrategias alternativas que permitan encontrar el camino más corto a partir de dos puntos en un mapa de ciudad, que brinde como resultado entre las mejores soluciones sin requerir muchos recursos físicos.
 
+### metodología
 Se propuso aquí el uso de métodos de Inteligencia Colectiva, desde un enfoque de inteligencia Computacional, inspirados en el comportamiento biológico de las hormigas (que poseen un costo espacial acotado -cantidad de hormigas-).
 
+### idea de solución
 A modo de prototipado, se ha decidido encontrar una solución que permita a una persona conocer cual es un buen camino a seguir, que le permita ahorrar tiempo (~distancia) y dinero, considerando dos medios de traslado: a pie y mediante colectivos públicos urbanos.
 Además, nos hemos propuesto el objetivo de comparar las distintas variaciones del algoritmo de colonia de hormigas y así poder seleccionar la alternativa mas adecuada.
 
