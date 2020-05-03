@@ -48,13 +48,12 @@ Dentro del script hay una sección llamada "RUTA MINIMA CON SISTEMA DE COLONIA D
 ## Problemas
 El algoritmo de sistema de hormigas MAX-MIN (MMAS) no funciona bien y puede tardar en encontrar una solución como estancarse.
 
-## Contacto
-Ante cualquier duda, consulte por mail:
- * joa_gzb@hotmail.com
- * joa.gzb@hotmail.com
+## Autores
+* Joaquin Gonzalez Budiño: <joa_gzb@hotmail.com> || <joa.gzb@gmail.com>
+* Nicolas Giuliano: <nsgiuliano@gmail.com>
  
 ## Redes Sociales 
-* linkedin: https://www.linkedin.com/in/joaquin-gonzalez-budino/
+* [linkedin joaquin](https://www.linkedin.com/in/joaquin-gonzalez-budino/)
 
 ## licencia
  Copyright (C) 2020  Gonzalez Budiño Joaquin
