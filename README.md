@@ -26,9 +26,8 @@ Además, nos hemos propuesto el objetivo de comparar las distintas variaciones d
       * Algoritmos de Colonia de hormigas
       
 ## Implementación del algoritmo y resultados técnicos
-Los detalles técnicos acerca de la implementación y los resultados obtenidos quedan expresados en el siguiente informe en la carpeta de proyecto arriba:
-
-https://github.com/guobiloo/hormigas-urbanas/blob/master/hormigas%20urbanas%20-%202018.pdf
+Los detalles técnicos acerca de la implementación y los resultados obtenidos quedan, a continuación, en el enlace a mi página web personal de proyectos:
+- [proyecto: hormigas urbanas](https://guobiloo.github.io/Hormigas-urbanas/)
 
 ## lenguajes y librerías consideradas
 * python 2.7 (repositorio privado)
@@ -49,11 +48,12 @@ Dentro del script hay una sección llamada "RUTA MINIMA CON SISTEMA DE COLONIA D
 El algoritmo de sistema de hormigas MAX-MIN (MMAS) no funciona bien y puede tardar en encontrar una solución como estancarse.
 
 ## Autores
-* Joaquin Gonzalez Budiño: <joa_gzb@hotmail.com> || <joa.gzb@gmail.com>
+* Joaquin Gonzalez Budiño: <joa_gzb@hotmail.com> | <joa.gzb@gmail.com>
 * Nicolas Giuliano: <nsgiuliano@gmail.com>
  
 ## Redes Sociales 
 * [linkedin joaquin](https://www.linkedin.com/in/joaquin-gonzalez-budino/)
+* [sitio web personal de proyectos](https://guobiloo.github.io/Hormigas-urbanas/)
 
 ## licencia
  Copyright (C) 2020  Gonzalez Budiño Joaquin
